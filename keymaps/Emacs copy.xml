@@ -1,0 +1,27 @@
+<keymap version="1" name="Emacs copy" parent="Emacs">
+  <action id="CloseActiveTab">
+    <keyboard-shortcut first-keystroke="shift ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="k" />
+  </action>
+  <action id="CollapseSelection" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="j" />
+  </action>
+  <action id="EditorBackSpace">
+    <keyboard-shortcut first-keystroke="back_space" />
+    <keyboard-shortcut first-keystroke="shift back_space" />
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="EditorChooseLookupItemDot" />
+  <action id="EditorKillRingSave">
+    <keyboard-shortcut first-keystroke="alt w" />
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
+  <action id="EditorSplitLine" />
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="o" />
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
+  <action id="TypeHierarchy" />
+</keymap>
